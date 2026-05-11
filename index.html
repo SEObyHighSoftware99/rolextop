@@ -1,0 +1,2617 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Algorthmoptix | Professional SEO Services for Rankings, Leads &amp; Local Growth</title>
+<meta content="Algorthmoptix provides on-page SEO, off-page SEO, backlink building, technical SEO, and Google Business Profile optimization for businesses that want more traffic and more leads." name="description"/>
+<meta content="index, follow" name="robots"/>
+<meta content="#0f172a" name="theme-color"/>
+<link href="https://algorithmoptixit.futureall.xyz/" rel="canonical"/>
+<meta content="Algorthmoptix | SEO Services That Help You Rank and Convert" property="og:title"/>
+<meta content="Professional SEO services focused on visibility, trust, local growth, and lead generation." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="https://algorithmoptixit.futureall.xyz/" property="og:url"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Algorthmoptix | Professional SEO Services" name="twitter:title"/>
+<meta content="On-page SEO, off-page SEO, backlinks, technical SEO, and GBP optimization for business growth." name="twitter:description"/>
+<style>
+    :root{
+      --bg:#08111f;
+      --panel:rgba(255,255,255,.82);
+      --panel-strong:#ffffff;
+      --text:#0f172a;
+      --muted:#475569;
+      --line:rgba(148,163,184,.22);
+      --primary:#2563eb;
+      --primary-dark:#1d4ed8;
+      --accent:#38bdf8;
+      --accent-soft:rgba(56,189,248,.12);
+      --success:#0f766e;
+      --whatsapp:#16a34a;
+      --whatsapp-dark:#15803d;
+      --shadow:0 18px 60px rgba(15,23,42,.14);
+      --shadow-soft:0 10px 30px rgba(15,23,42,.08);
+      --radius:28px;
+      --radius-sm:18px;
+      --max:1180px;
+      --nav-height:82px;
+    }
+
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color:var(--text);
+      line-height:1.7;
+      background:
+        radial-gradient(circle at top left, rgba(56,189,248,.18), transparent 32%),
+        radial-gradient(circle at right 18%, rgba(37,99,235,.18), transparent 26%),
+        linear-gradient(180deg, #eef6ff 0%, #f8fbff 32%, #ffffff 100%);
+    }
+
+    img,svg{display:block;max-width:100%}
+    a{color:inherit}
+    button,input{font:inherit}
+    .sr-only{
+      position:absolute;
+      width:1px;
+      height:1px;
+      padding:0;
+      margin:-1px;
+      overflow:hidden;
+      clip:rect(0,0,0,0);
+      white-space:nowrap;
+      border:0;
+    }
+
+    .skip-link{
+      position:absolute;
+      top:-48px;
+      left:16px;
+      z-index:2000;
+      background:#fff;
+      color:var(--text);
+      padding:10px 14px;
+      border-radius:12px;
+      text-decoration:none;
+      box-shadow:var(--shadow-soft);
+      transition:top .2s ease;
+    }
+    .skip-link:focus{top:14px}
+
+    :focus-visible{
+      outline:3px solid rgba(37,99,235,.35);
+      outline-offset:3px;
+    }
+
+    .site-header{
+      position:sticky;
+      top:0;
+      z-index:60;
+      backdrop-filter:blur(16px);
+      background:rgba(255,255,255,.8);
+      border-bottom:1px solid rgba(148,163,184,.16);
+    }
+
+    .site-header__inner,
+    .hero,
+    .proof-strip,
+    .content-grid,
+    .footer-inner{
+      width:min(calc(100% - 32px), var(--max));
+      margin:0 auto;
+    }
+
+    .site-header__inner{
+      min-height:var(--nav-height);
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:18px;
+    }
+
+    .brand{
+      display:inline-flex;
+      align-items:center;
+      gap:12px;
+      text-decoration:none;
+      font-weight:800;
+      letter-spacing:-.02em;
+    }
+
+    .brand-mark{
+      width:42px;
+      height:42px;
+      display:grid;
+      place-items:center;
+      border-radius:14px;
+      color:#fff;
+      font-size:18px;
+      background:linear-gradient(135deg, var(--primary), var(--accent));
+      box-shadow:0 12px 26px rgba(37,99,235,.22);
+    }
+
+    .header-actions{
+      display:flex;
+      align-items:center;
+      gap:12px;
+      flex-wrap:wrap;
+    }
+
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:8px;
+      padding:13px 20px;
+      border-radius:999px;
+      border:1px solid transparent;
+      text-decoration:none;
+      font-weight:700;
+      white-space:nowrap;
+      transition:transform .2s ease, box-shadow .2s ease, background-color .2s ease, border-color .2s ease;
+    }
+    .btn:hover,.btn:focus-visible{transform:translateY(-1px)}
+    .btn-primary{
+      color:#fff;
+      background:linear-gradient(135deg,var(--primary),var(--primary-dark));
+      box-shadow:0 16px 28px rgba(37,99,235,.22);
+    }
+    .btn-secondary{
+      background:rgba(255,255,255,.76);
+      border-color:rgba(148,163,184,.28);
+    }
+    .btn-whatsapp{
+      color:#fff;
+      background:linear-gradient(135deg,var(--whatsapp),var(--whatsapp-dark));
+      box-shadow:0 16px 28px rgba(22,163,74,.24);
+    }
+    .btn-ghost{
+      background:transparent;
+      border-color:rgba(148,163,184,.28);
+    }
+
+    .hero-wrap{padding:34px 0 18px}
+    .hero{
+      display:grid;
+      grid-template-columns:minmax(0,1.08fr) minmax(320px,.92fr);
+      gap:28px;
+      align-items:stretch;
+    }
+
+    .glass{
+      background:var(--panel);
+      border:1px solid rgba(255,255,255,.72);
+      backdrop-filter:blur(16px);
+      box-shadow:var(--shadow);
+      border-radius:var(--radius);
+    }
+
+    .hero-copy-card{
+      padding:32px;
+      position:relative;
+      overflow:hidden;
+    }
+
+    .hero-copy-card::before{
+      content:"";
+      position:absolute;
+      inset:auto -80px -80px auto;
+      width:220px;
+      height:220px;
+      border-radius:50%;
+      background:radial-gradient(circle, rgba(56,189,248,.16), rgba(56,189,248,0));
+      pointer-events:none;
+    }
+
+    .eyebrow{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:8px 12px;
+      border-radius:999px;
+      background:rgba(37,99,235,.08);
+      color:var(--primary);
+      font-size:13px;
+      font-weight:800;
+      letter-spacing:.08em;
+      text-transform:uppercase;
+    }
+
+    .eyebrow::before{
+      content:"";
+      width:8px;
+      height:8px;
+      border-radius:50%;
+      background:linear-gradient(135deg,var(--primary),var(--accent));
+    }
+
+    h1,h2,h3{line-height:1.1;letter-spacing:-.03em}
+    h1{
+      margin:18px 0 16px;
+      font-size:clamp(2.5rem, 5vw, 4.4rem);
+      max-width:12ch;
+    }
+    .hero-copy{
+      margin:0;
+      max-width:60ch;
+      color:var(--muted);
+      font-size:1.05rem;
+    }
+
+    .hero-actions{
+      display:flex;
+      flex-wrap:wrap;
+      gap:12px;
+      margin:24px 0 22px;
+    }
+
+    .service-tags{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      margin:0 0 24px;
+    }
+
+    .service-tags span,
+    .mini-pill{
+      display:inline-flex;
+      align-items:center;
+      padding:9px 12px;
+      border-radius:999px;
+      background:rgba(255,255,255,.72);
+      border:1px solid rgba(148,163,184,.22);
+      box-shadow:var(--shadow-soft);
+      color:var(--text);
+      font-size:13px;
+      font-weight:700;
+    }
+
+    .hero-metrics{
+      display:grid;
+      grid-template-columns:repeat(3, minmax(0,1fr));
+      gap:12px;
+      margin:0 0 22px;
+    }
+    .hero-metric{
+      padding:16px 18px;
+      border-radius:22px;
+      background:linear-gradient(180deg, rgba(255,255,255,.84), rgba(248,250,252,.72));
+      border:1px solid rgba(148,163,184,.18);
+      box-shadow:var(--shadow-soft);
+    }
+    .hero-metric strong{
+      display:block;
+      margin-bottom:6px;
+      font-size:1.18rem;
+      color:var(--text);
+    }
+    .hero-metric span{
+      display:block;
+      color:var(--muted);
+      font-size:.94rem;
+      line-height:1.55;
+    }
+    .hero-points{
+      display:grid;
+      grid-template-columns:repeat(3, minmax(0,1fr));
+      gap:14px;
+    }
+
+    .hero-points div{
+      padding:16px;
+      border-radius:20px;
+      background:rgba(255,255,255,.62);
+      border:1px solid rgba(148,163,184,.18);
+    }
+    .hero-points strong{
+      display:block;
+      margin-bottom:4px;
+      font-size:.98rem;
+    }
+    .hero-points span{
+      color:var(--muted);
+      font-size:.95rem;
+    }
+
+    .hero-visual{
+      padding:22px;
+      position:relative;
+      overflow:hidden;
+      min-height:100%;
+      display:grid;
+      grid-template-rows:auto auto minmax(0,1fr);
+      gap:16px;
+      align-content:start;
+    }
+
+    .hero-visual::after{
+      content:"";
+      position:absolute;
+      inset:22px 22px auto auto;
+      width:88px;
+      height:88px;
+      border-radius:24px;
+      background:linear-gradient(135deg, rgba(37,99,235,.14), rgba(56,189,248,.14));
+      filter:blur(2px);
+      pointer-events:none;
+    }
+
+    .visual-shell{
+      border-radius:26px;
+      overflow:hidden;
+      border:1px solid rgba(148,163,184,.18);
+      background:
+        linear-gradient(180deg, rgba(15,23,42,.98) 0%, rgba(18,37,70,.98) 100%);
+      box-shadow:0 16px 40px rgba(8,17,31,.28);
+      padding:18px;
+    }
+
+    .visual-top{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:12px;
+      margin-bottom:14px;
+      color:rgba(255,255,255,.86);
+      font-size:14px;
+      font-weight:700;
+    }
+
+    .signal{
+      display:inline-flex;
+      gap:6px;
+      align-items:center;
+    }
+
+    .signal span{
+      width:8px;
+      height:8px;
+      border-radius:50%;
+      background:rgba(255,255,255,.4);
+    }
+    .signal span:nth-child(1){background:#22c55e}
+    .signal span:nth-child(2){background:#f59e0b}
+    .signal span:nth-child(3){background:#ef4444}
+
+    .dashboard{
+      display:grid;
+      gap:14px;
+    }
+
+    .dashboard-grid{
+      display:grid;
+      grid-template-columns:1.1fr .9fr;
+      gap:14px;
+      align-items:stretch;
+    }
+
+    .panel-dark{
+      background:rgba(255,255,255,.06);
+      border:1px solid rgba(255,255,255,.08);
+      border-radius:20px;
+      padding:16px;
+    }
+
+    .chart-caption,
+    .score-label{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      margin-bottom:10px;
+      color:rgba(255,255,255,.72);
+      font-size:13px;
+      font-weight:600;
+    }
+
+    .score-grid{
+      display:grid;
+      gap:10px;
+    }
+
+    .score-item{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:14px;
+      padding:10px 12px;
+      border-radius:14px;
+      background:rgba(255,255,255,.05);
+      color:#fff;
+      font-size:14px;
+    }
+
+    .meter{
+      flex:1;
+      height:8px;
+      background:rgba(255,255,255,.12);
+      border-radius:999px;
+      overflow:hidden;
+    }
+    .meter span{
+      display:block;
+      height:100%;
+      border-radius:999px;
+      background:linear-gradient(90deg,var(--accent), #60a5fa);
+    }
+
+    .keyword-cloud{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+    }
+
+    .keyword-cloud span{
+      padding:8px 10px;
+      border-radius:999px;
+      color:#dbeafe;
+      font-size:12px;
+      font-weight:700;
+      background:rgba(37,99,235,.24);
+      border:1px solid rgba(147,197,253,.18);
+    }
+
+    .hero-summary{
+      display:grid;
+      grid-template-columns:repeat(3, minmax(0,1fr));
+      gap:12px;
+    }
+
+    .summary-card{
+      border-radius:20px;
+      padding:16px;
+      background:rgba(255,255,255,.8);
+      border:1px solid rgba(148,163,184,.18);
+      box-shadow:var(--shadow-soft);
+    }
+    .summary-card strong{
+      display:block;
+      margin-bottom:6px;
+      font-size:1.4rem;
+      color:var(--text);
+    }
+    .summary-card span{
+      color:var(--muted);
+      font-size:.92rem;
+    }
+
+
+    .hero-trust-panel{
+      display:grid;
+      grid-template-rows:auto auto 1fr auto;
+      gap:16px;
+      min-height:100%;
+      padding:18px;
+      border-radius:24px;
+      background:linear-gradient(180deg, rgba(255,255,255,.88), rgba(239,246,255,.86));
+      border:1px solid rgba(147,197,253,.28);
+      box-shadow:var(--shadow-soft);
+    }
+
+    .hero-trust-head{
+      display:flex;
+      align-items:flex-start;
+      justify-content:space-between;
+      gap:12px;
+    }
+
+    .hero-trust-head strong{
+      display:block;
+      font-size:1.08rem;
+      margin-bottom:4px;
+    }
+
+    .hero-trust-head span,
+    .trust-quote p,
+    .trust-points li,
+    .trust-cta-copy p{
+      color:var(--muted);
+    }
+
+    .hero-trust-badge{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      min-width:92px;
+      padding:10px 12px;
+      border-radius:999px;
+      background:linear-gradient(135deg, rgba(37,99,235,.12), rgba(56,189,248,.18));
+      color:var(--primary-dark);
+      font-size:.78rem;
+      font-weight:800;
+      letter-spacing:.06em;
+      text-transform:uppercase;
+      border:1px solid rgba(37,99,235,.16);
+    }
+
+    .trust-stat-grid{
+      display:grid;
+      grid-template-columns:repeat(3, minmax(0,1fr));
+      gap:12px;
+    }
+
+    .trust-stat{
+      padding:14px;
+      border-radius:18px;
+      background:rgba(255,255,255,.78);
+      border:1px solid rgba(148,163,184,.18);
+    }
+
+    .trust-stat strong{
+      display:block;
+      font-size:1.28rem;
+      margin-bottom:4px;
+      color:var(--primary-dark);
+    }
+
+    .trust-stat span{
+      display:block;
+      color:var(--muted);
+      font-size:.85rem;
+      line-height:1.45;
+    }
+
+    .trust-proof-grid{
+      display:grid;
+      grid-template-columns:1.1fr .9fr;
+      gap:14px;
+      align-items:stretch;
+    }
+
+    .trust-quote,
+    .trust-points,
+    .trust-cta{
+      border-radius:20px;
+      background:rgba(255,255,255,.78);
+      border:1px solid rgba(148,163,184,.18);
+      padding:16px;
+    }
+
+    .trust-quote{
+      position:relative;
+      overflow:hidden;
+    }
+
+    .trust-quote::before{
+      content:"“";
+      position:absolute;
+      top:8px;
+      right:12px;
+      font-size:3rem;
+      line-height:1;
+      color:rgba(37,99,235,.14);
+      font-weight:800;
+    }
+
+    .trust-quote strong,
+    .trust-points strong,
+    .trust-cta-copy strong{
+      display:block;
+      margin-bottom:8px;
+      font-size:.98rem;
+    }
+
+    .trust-quote p{
+      margin:0 0 10px;
+      line-height:1.7;
+      font-size:.94rem;
+    }
+
+    .trust-quote small{
+      display:block;
+      color:var(--muted);
+      font-size:.84rem;
+      font-weight:600;
+    }
+
+    .trust-points ul{
+      list-style:none;
+      margin:0;
+      padding:0;
+      display:grid;
+      gap:10px;
+    }
+
+    .trust-points li{
+      position:relative;
+      padding-left:24px;
+      line-height:1.55;
+      font-size:.92rem;
+    }
+
+    .trust-points li::before{
+      content:"";
+      position:absolute;
+      left:0;
+      top:.48rem;
+      width:12px;
+      height:12px;
+      border-radius:50%;
+      background:linear-gradient(135deg, var(--primary), var(--accent));
+      box-shadow:0 0 0 6px rgba(37,99,235,.08);
+    }
+
+    .trust-cta{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:14px;
+      flex-wrap:wrap;
+    }
+
+    .trust-cta-copy p{
+      margin:0;
+      font-size:.92rem;
+      line-height:1.6;
+      max-width:34ch;
+    }
+
+    .trust-cta-actions{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+    }
+
+    .proof-strip{
+      display:grid;
+      grid-template-columns:repeat(4, minmax(0,1fr));
+      gap:14px;
+      padding-bottom:22px;
+    }
+
+    .proof-item{
+      padding:20px 20px 18px;
+      border-radius:24px;
+      background:linear-gradient(180deg, rgba(255,255,255,.82), rgba(248,250,252,.72));
+      border:1px solid rgba(148,163,184,.18);
+      box-shadow:var(--shadow-soft);
+      position:relative;
+      overflow:hidden;
+    }
+    .proof-item::before{
+      content:"";
+      display:block;
+      width:12px;
+      height:12px;
+      margin-bottom:12px;
+      border-radius:999px;
+      background:linear-gradient(135deg, var(--primary), var(--accent));
+      box-shadow:0 0 0 8px rgba(37,99,235,.08);
+    }
+    .proof-item strong{
+      display:block;
+      margin-bottom:6px;
+      font-size:1rem;
+    }
+    .proof-item p{
+      margin:0;
+      color:var(--muted);
+      font-size:.95rem;
+      line-height:1.65;
+    }
+
+    .content-grid{
+      display:grid;
+      grid-template-columns:280px minmax(0, 1fr);
+      gap:24px;
+      align-items:start;
+      padding:4px 0 40px;
+    }
+
+    .sidebar{
+      position:sticky;
+      top:calc(var(--nav-height) + 18px);
+      display:grid;
+      gap:18px;
+    }
+
+    .sidebar-card,
+    .section-card,
+    .service-card,
+    .blog-card,
+    .cta-card,
+    .footer-card{
+      padding:24px;
+    }
+
+    .sidebar-card h2,
+    .section-card h2,
+    .service-card h2,
+    .cta-card h2{
+      margin:0 0 12px;
+      font-size:1.45rem;
+    }
+
+    .sidebar-card p,
+    .section-card p,
+    .service-card p,
+    .footer-card p,
+    .cta-card p{
+      margin:0;
+      color:var(--muted);
+    }
+
+    .toc,
+    .quick-links{
+      display:grid;
+      gap:10px;
+      margin-top:14px;
+    }
+
+    .toc a,
+    .quick-links a,
+    .contact-inline a{
+      text-decoration:none;
+      padding:11px 14px;
+      border-radius:14px;
+      background:rgba(37,99,235,.06);
+      border:1px solid rgba(37,99,235,.08);
+      transition:transform .2s ease, background-color .2s ease;
+    }
+    .toc a:hover,
+    .toc a:focus-visible,
+    .quick-links a:hover,
+    .quick-links a:focus-visible,
+    .contact-inline a:hover,
+    .contact-inline a:focus-visible{
+      transform:translateX(2px);
+      background:rgba(37,99,235,.1);
+    }
+
+    .contact-inline{
+      margin-top:16px;
+      display:grid;
+      gap:10px;
+    }
+
+    .stack{
+      display:grid;
+      gap:20px;
+    }
+
+    .section-label{
+      display:inline-block;
+      margin-bottom:12px;
+      color:var(--primary);
+      font-size:13px;
+      letter-spacing:.1em;
+      text-transform:uppercase;
+      font-weight:800;
+    }
+
+    .intro-grid{
+      display:grid;
+      grid-template-columns:1.05fr .95fr;
+      gap:20px;
+    }
+
+    .mini-stat-row{
+      display:grid;
+      gap:12px;
+    }
+
+    .mini-stat{
+      display:flex;
+      justify-content:space-between;
+      gap:16px;
+      padding:14px 16px;
+      border-radius:18px;
+      background:rgba(37,99,235,.06);
+      border:1px solid rgba(37,99,235,.08);
+    }
+    .mini-stat strong{font-size:.98rem}
+    .mini-stat span{color:var(--muted);font-size:.94rem}
+    .service-snapshot-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(170px, 1fr));
+      gap:16px;
+      margin-top:20px;
+    }
+
+    .scan-card{
+      padding:18px;
+      border-radius:22px;
+      background:linear-gradient(180deg, rgba(255,255,255,.94), rgba(248,250,252,.88));
+      border:1px solid rgba(148,163,184,.16);
+      box-shadow:var(--shadow-soft);
+      display:grid;
+      gap:12px;
+      min-height:100%;
+    }
+
+    .scan-icon{
+      width:46px;
+      height:46px;
+      display:grid;
+      place-items:center;
+      border-radius:16px;
+      color:var(--primary);
+      background:linear-gradient(135deg, rgba(37,99,235,.12), rgba(56,189,248,.16));
+      border:1px solid rgba(37,99,235,.10);
+    }
+
+    .scan-card strong{
+      display:block;
+      font-size:1rem;
+      line-height:1.2;
+    }
+
+    .scan-card p{
+      margin:0;
+      color:var(--muted);
+      font-size:.93rem;
+      line-height:1.6;
+    }
+
+    .trust-strip-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));
+      gap:16px;
+      margin-top:18px;
+    }
+
+    .trust-tile{
+      padding:18px;
+      border-radius:22px;
+      background:linear-gradient(180deg, rgba(255,255,255,.96), rgba(239,246,255,.90));
+      border:1px solid rgba(37,99,235,.12);
+      display:grid;
+      gap:10px;
+      min-height:100%;
+      box-shadow:var(--shadow-soft);
+    }
+
+    .trust-tile strong{
+      display:block;
+      font-size:1rem;
+    }
+
+    .trust-tile p{
+      margin:0;
+      color:var(--muted);
+      font-size:.94rem;
+      line-height:1.65;
+    }
+
+    .trust-tile-top{
+      display:flex;
+      align-items:center;
+      gap:12px;
+    }
+
+    .trust-tile-badge{
+      width:40px;
+      height:40px;
+      display:grid;
+      place-items:center;
+      border-radius:14px;
+      color:var(--primary-dark);
+      background:rgba(37,99,235,.10);
+      border:1px solid rgba(37,99,235,.12);
+      font-weight:800;
+      font-size:.82rem;
+    }
+
+    .process-grid{
+      display:grid;
+      grid-template-columns:repeat(3, minmax(0,1fr));
+      gap:18px;
+      margin-top:20px;
+    }
+
+    .process-card{
+      padding:20px;
+      border-radius:24px;
+      background:linear-gradient(180deg, rgba(255,255,255,.96), rgba(248,250,252,.92));
+      border:1px solid rgba(148,163,184,.16);
+      box-shadow:var(--shadow-soft);
+      display:grid;
+      gap:16px;
+      min-height:100%;
+    }
+
+    .process-visual{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:14px;
+    }
+
+    .process-step{
+      width:44px;
+      height:44px;
+      display:grid;
+      place-items:center;
+      border-radius:999px;
+      background:linear-gradient(135deg, var(--primary), var(--accent));
+      color:#fff;
+      font-size:.86rem;
+      font-weight:800;
+      box-shadow:0 12px 24px rgba(37,99,235,.18);
+    }
+
+    .process-icon{
+      width:54px;
+      height:54px;
+      display:grid;
+      place-items:center;
+      border-radius:18px;
+      color:var(--primary);
+      background:rgba(37,99,235,.08);
+      border:1px solid rgba(37,99,235,.10);
+    }
+
+    .process-card h3{
+      margin:0;
+      font-size:1.18rem;
+      line-height:1.18;
+    }
+
+    .process-card p{
+      margin:0;
+      color:var(--muted);
+      font-size:.95rem;
+      line-height:1.68;
+    }
+
+    .service-grid{
+      display:grid;
+      grid-template-columns:repeat(2, minmax(0,1fr));
+      gap:20px;
+    }
+
+    .service-card{
+      display:grid;
+      gap:16px;
+      min-height:100%;
+      scroll-margin-top:calc(var(--nav-height) + 26px);
+    }
+
+    .service-head{
+      display:flex;
+      align-items:flex-start;
+      gap:14px;
+    }
+
+    .icon-badge{
+      flex:0 0 auto;
+      width:56px;
+      height:56px;
+      display:grid;
+      place-items:center;
+      border-radius:18px;
+      color:var(--primary);
+      background:linear-gradient(135deg, rgba(37,99,235,.12), rgba(56,189,248,.14));
+      border:1px solid rgba(37,99,235,.1);
+      box-shadow:var(--shadow-soft);
+    }
+
+    .service-head h2{
+      margin:0 0 4px;
+      font-size:1.45rem;
+    }
+
+    .service-subtitle{
+      display:block;
+      color:var(--muted);
+      font-size:.96rem;
+    }
+
+    .feature-list{
+      display:grid;
+      gap:10px;
+      padding:0;
+      margin:0;
+      list-style:none;
+    }
+    .feature-list li{
+      padding:12px 14px;
+      border-radius:16px;
+      background:rgba(248,250,252,.92);
+      border:1px solid rgba(148,163,184,.16);
+      color:var(--muted);
+    }
+    .feature-list li strong{color:var(--text)}
+
+    .outcome{
+      padding:15px 16px;
+      border-radius:18px;
+      background:linear-gradient(135deg, rgba(15,23,42,.96), rgba(29,78,216,.92));
+      color:#fff;
+    }
+    .outcome strong{display:block;margin-bottom:6px}
+    .outcome p{margin:0;color:rgba(255,255,255,.82)}
+
+    .blog-preview-grid{
+      display:grid;
+      grid-template-columns:repeat(3, minmax(0,1fr));
+      gap:18px;
+      margin-top:20px;
+    }
+
+    .blog-card{
+      display:grid;
+      gap:14px;
+      text-decoration:none;
+      color:inherit;
+    }
+
+    .thumb{
+      aspect-ratio:16/10;
+      border-radius:22px;
+      overflow:hidden;
+      border:1px solid rgba(148,163,184,.15);
+      background:
+        linear-gradient(135deg, rgba(15,23,42,.98), rgba(29,78,216,.94));
+      position:relative;
+      box-shadow:var(--shadow-soft);
+    }
+
+    .thumb::before{
+      content:"";
+      position:absolute;
+      width:180px;
+      height:180px;
+      border-radius:40px;
+      right:-30px;
+      top:-40px;
+      background:radial-gradient(circle, rgba(96,165,250,.32), rgba(96,165,250,0));
+    }
+
+    .thumb-inner{
+      position:absolute;
+      inset:18px;
+      display:grid;
+      gap:12px;
+      align-content:start;
+    }
+
+    .thumb-bars{
+      display:grid;
+      gap:10px;
+    }
+    .thumb-bars span,
+    .thumb-line span{
+      display:block;
+      border-radius:999px;
+      background:rgba(255,255,255,.2);
+    }
+    .thumb-bars span:nth-child(1){height:12px;width:72%}
+    .thumb-bars span:nth-child(2){height:10px;width:88%}
+    .thumb-bars span:nth-child(3){height:10px;width:56%}
+    .thumb-line{
+      display:flex;
+      gap:8px;
+      align-items:flex-end;
+      min-height:54px;
+    }
+    .thumb-line span:nth-child(1){width:12%;height:30px}
+    .thumb-line span:nth-child(2){width:12%;height:44px}
+    .thumb-line span:nth-child(3){width:12%;height:26px}
+    .thumb-line span:nth-child(4){width:12%;height:50px}
+    .thumb-line span:nth-child(5){width:12%;height:60px}
+    .thumb img{
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      display:block;
+    }
+
+    .hero-visual-image{
+      border-radius:20px;
+      overflow:hidden;
+      border:1px solid rgba(255,255,255,.08);
+      background:rgba(255,255,255,.04);
+    }
+    .hero-visual-image img{
+      width:100%;
+      height:auto;
+      display:block;
+    }
+
+    .thumb-pill{
+      display:inline-flex;
+      align-items:center;
+      padding:8px 10px;
+      width:max-content;
+      border-radius:999px;
+      background:rgba(255,255,255,.12);
+      color:#dbeafe;
+      border:1px solid rgba(255,255,255,.14);
+      font-size:12px;
+      font-weight:700;
+    }
+
+    .post-meta{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      color:var(--muted);
+      font-size:13px;
+      font-weight:600;
+    }
+
+    .blog-card h3{
+      margin:0;
+      font-size:1.2rem;
+      line-height:1.28;
+    }
+    .blog-card p{margin:0;color:var(--muted)}
+    .read-more{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      color:var(--primary);
+      font-weight:800;
+      text-decoration:none;
+    }
+
+    .cta-card{
+      background:linear-gradient(135deg, rgba(15,23,42,.98), rgba(29,78,216,.92));
+      color:#fff;
+    }
+    .cta-card p{color:rgba(255,255,255,.8)}
+    .cta-actions{
+      display:flex;
+      flex-wrap:wrap;
+      gap:12px;
+      margin-top:18px;
+    }
+
+    .footer-wrap{padding:0 0 32px}
+    .footer-card{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:18px;
+    }
+    .footer-links{
+      display:flex;
+      flex-wrap:wrap;
+      gap:14px;
+    }
+    .footer-links a{
+      text-decoration:none;
+      color:var(--muted);
+      font-weight:700;
+    }
+
+    @media (prefers-reduced-motion: reduce){
+      html{scroll-behavior:auto}
+      *,
+      *::before,
+      *::after{
+        animation:none !important;
+        transition:none !important;
+      }
+    }
+
+    @media (max-width: 1080px){
+      .hero,
+      .intro-grid,
+      .content-grid{
+        grid-template-columns:1fr;
+      }
+      .sidebar{
+        position:static;
+        order:2;
+      }
+      .proof-strip{
+        grid-template-columns:repeat(2, minmax(0,1fr));
+      }
+    }
+
+    @media (max-width: 820px){
+      .service-grid,
+      .blog-preview-grid,
+      .hero-metrics,
+      .hero-points,
+      .hero-summary,
+      .trust-stat-grid,
+      .trust-proof-grid,
+      .process-grid{
+        grid-template-columns:1fr;
+      }
+
+      .trust-cta{
+        align-items:flex-start;
+      }
+      .dashboard-grid{
+        grid-template-columns:1fr;
+      }
+      .proof-strip{
+        grid-template-columns:1fr;
+      }
+    }
+
+    @media (max-width: 720px){
+      .site-header__inner,
+      .header-actions,
+      .footer-card,
+      .cta-actions{
+        flex-direction:column;
+        align-items:stretch;
+      }
+      .site-header__inner{padding:14px 0}
+      .hero-copy-card,
+      .hero-visual,
+      .sidebar-card,
+      .section-card,
+      .service-card,
+      .cta-card,
+      .footer-card{padding:20px}
+      h1{font-size:clamp(2.2rem, 10vw, 3.2rem)}
+      .btn{width:100%}
+    }
+
+    .popup{
+      position:fixed;
+      inset:0;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:24px;
+      background:rgba(15,23,42,.46);
+      backdrop-filter:blur(10px);
+      -webkit-backdrop-filter:blur(10px);
+      opacity:0;
+      visibility:hidden;
+      pointer-events:none;
+      transition:opacity .22s ease, visibility .22s ease;
+      z-index:1000;
+    }
+    .popup.is-open{
+      opacity:1;
+      visibility:visible;
+      pointer-events:auto;
+    }
+    .popup-card{
+      width:min(100%, 540px);
+      margin:auto;
+      padding:28px;
+      border-radius:28px;
+      background:rgba(255,255,255,.96);
+      border:1px solid rgba(148, 163, 184, 0.20);
+      box-shadow:0 28px 70px rgba(15,23,42,.20);
+      position:relative;
+      transform:translateY(10px) scale(.98);
+      transition:transform .22s ease;
+      outline:none;
+      max-height:calc(100vh - 48px);
+      overflow:auto;
+    }
+    .popup.is-open .popup-card{ transform:translateY(0) scale(1); }
+    .popup-content{
+      display:grid;
+      gap:18px;
+    }
+    .popup-close{
+      position:absolute;
+      top:16px;
+      right:16px;
+      width:54px;
+      height:54px;
+      border-radius:999px;
+      border:1px solid rgba(59,130,246,.28);
+      background:rgba(255,255,255,.9);
+      color:var(--text, #0f172a);
+      cursor:pointer;
+      font-size:1.35rem;
+      line-height:1;
+      z-index:2;
+      box-shadow:0 0 0 4px rgba(59,130,246,.20);
+    }
+    .popup-close:hover,
+    .popup-close:focus-visible{
+      background:rgba(239,246,255,.98);
+    }
+    .popup-header{
+      padding-right:68px;
+      display:grid;
+      gap:12px;
+    }
+    .popup-header h2{
+      margin:0;
+      color:var(--text, #0f172a);
+      font-size:clamp(1.9rem, 4vw, 2.25rem);
+      line-height:1.06;
+      letter-spacing:-.03em;
+      max-width:12ch;
+    }
+    .popup-header p{
+      margin:0;
+      color:var(--muted, #475569);
+      line-height:1.65;
+      font-size:1.02rem;
+      max-width:34ch;
+    }
+    .popup-contact-box{
+      display:grid;
+      gap:12px;
+      padding:18px 18px 16px;
+      border-radius:22px;
+      background:linear-gradient(180deg, rgba(239,246,255,.96), rgba(248,250,252,.96));
+      border:1px solid rgba(191,219,254,.85);
+      box-shadow:inset 0 1px 0 rgba(255,255,255,.6);
+    }
+    .popup-contact-row{
+      display:flex;
+      align-items:center;
+      gap:12px;
+      min-width:0;
+    }
+    .popup-contact-icon{
+      width:34px;
+      height:34px;
+      flex:0 0 34px;
+      display:grid;
+      place-items:center;
+      border-radius:10px;
+      color:var(--text, #0f172a);
+      background:rgba(255,255,255,.88);
+      border:1px solid rgba(148,163,184,.16);
+    }
+    .popup-contact-number{
+      color:var(--primary, #2563eb);
+      font-weight:800;
+      font-size:1.25rem;
+      text-decoration:none;
+      letter-spacing:-.01em;
+      word-break:break-word;
+    }
+    .popup-contact-box p{
+      margin:0;
+      color:var(--muted, #475569);
+      line-height:1.65;
+    }
+    .popup-actions{
+      display:grid;
+      grid-template-columns:repeat(3, minmax(0, 1fr));
+      gap:12px;
+      align-items:stretch;
+    }
+    .popup-actions .btn,
+    .popup-footer .btn{
+      min-width:0;
+      min-height:54px;
+      padding:14px 16px;
+      border-radius:18px;
+      justify-content:center;
+      box-shadow:none;
+      white-space:nowrap;
+    }
+    .popup-actions .btn{
+      width:100%;
+    }
+    .popup-actions .btn-whatsapp{
+      background:#16a34a;
+      color:#fff;
+      border:none;
+      box-shadow:0 10px 24px rgba(22,163,74,.20);
+    }
+    .popup-actions .btn-whatsapp:hover{ background:#15803d; }
+    .popup-actions .btn-secondary{
+      background:#fff;
+      color:var(--text, #0f172a);
+      border:1px solid rgba(148,163,184,.24);
+    }
+    .popup-actions .btn-primary{
+      background:linear-gradient(135deg, #2563eb, #1d4ed8);
+      color:#fff;
+      border:none;
+      box-shadow:0 12px 26px rgba(37,99,235,.22);
+    }
+    .popup-footer{
+      display:flex;
+      flex-direction:column;
+      align-items:flex-start;
+      gap:12px;
+    }
+    .popup-footer .btn{
+      width:auto;
+      min-width:92px;
+    }
+    .popup-note,
+    .copy-feedback{
+      margin:0;
+      color:var(--muted, #475569);
+      font-size:.95rem;
+      line-height:1.55;
+    }
+    .popup-footer{
+      margin-top:-2px;
+    }
+    .popup-footer .btn{
+      min-width:0;
+    }
+    .popup-fab{
+      position:fixed;
+      right:18px;
+      bottom:18px;
+      z-index:950;
+      min-height:54px;
+      padding:14px 20px;
+      border:none;
+      cursor:pointer;
+      box-shadow:0 18px 40px rgba(37,99,235,.22);
+    }
+    @media (prefers-reduced-motion: reduce){
+      .popup,
+      .popup-card,
+      .popup-fab{ transition:none !important; }
+    }
+    @media (max-width: 640px){
+      .popup{ padding:14px; }
+      .popup-card{
+        width:min(100%, 100%);
+        padding:22px 16px 18px;
+        max-height:calc(100vh - 28px);
+        border-radius:24px;
+      }
+      .popup-header{
+        padding-right:58px;
+      }
+      .popup-header h2{
+        max-width:none;
+        font-size:clamp(1.65rem, 8vw, 2rem);
+      }
+      .popup-contact-number{
+        font-size:1.08rem;
+      }
+      .popup-actions,
+      .popup-footer{
+        display:grid;
+        grid-template-columns:1fr;
+      }
+      .popup-actions .btn,
+      .popup-footer .btn,
+      .popup-fab{
+        width:100%;
+      }
+      .popup-fab{
+        left:16px;
+        right:16px;
+        bottom:16px;
+      }
+    }
+
+
+  
+    .results-section{
+      position:relative;
+      overflow:hidden;
+    }
+    .results-section::before{
+      content:"";
+      position:absolute;
+      inset:-80px auto auto -120px;
+      width:260px;
+      height:260px;
+      border-radius:50%;
+      background:radial-gradient(circle, rgba(56,189,248,.14), rgba(56,189,248,0));
+      pointer-events:none;
+    }
+    .results-section > *{position:relative}
+    .section-top{
+      display:flex;
+      justify-content:space-between;
+      align-items:flex-end;
+      gap:18px;
+      flex-wrap:wrap;
+    }
+    .section-top p{max-width:62ch}
+    .results-badges{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      margin-top:16px;
+    }
+    .results-badges span,
+    .source-links a{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:9px 12px;
+      border-radius:999px;
+      background:rgba(37,99,235,.08);
+      color:var(--primary);
+      border:1px solid rgba(37,99,235,.12);
+      font-size:13px;
+      font-weight:700;
+      text-decoration:none;
+    }
+    .results-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(320px, 1fr));
+      gap:22px;
+      margin-top:24px;
+      align-items:start;
+    }
+    .case-proof-card{
+      display:grid;
+      gap:18px;
+      padding:22px;
+      border-radius:30px;
+      background:linear-gradient(180deg, rgba(255,255,255,.94), rgba(248,250,252,.90));
+      border:1px solid rgba(148,163,184,.16);
+      box-shadow:var(--shadow-soft);
+      position:relative;
+      overflow:hidden;
+    }
+    .case-proof-card::after{
+      content:"";
+      position:absolute;
+      right:-50px;
+      top:-50px;
+      width:190px;
+      height:190px;
+      border-radius:999px;
+      background:radial-gradient(circle, rgba(125,211,252,.24), rgba(125,211,252,0));
+      pointer-events:none;
+    }
+    .case-proof-media{
+      border-radius:24px;
+      overflow:hidden;
+      background:#fff;
+      border:1px solid rgba(148,163,184,.16);
+      box-shadow:var(--shadow-soft);
+    }
+    .case-proof-media,
+    .proof-mini-image{
+      position:relative;
+    }
+
+    .media-badges,
+    .proof-overlay-tags{
+      position:absolute;
+      left:14px;
+      right:14px;
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+      pointer-events:none;
+      z-index:2;
+    }
+
+    .media-badges{ top:14px; }
+    .proof-overlay-tags{ bottom:14px; }
+
+    .media-badge,
+    .proof-overlay-tags span{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:8px 11px;
+      border-radius:999px;
+      font-size:.78rem;
+      font-weight:800;
+      letter-spacing:.02em;
+      background:rgba(255,255,255,.88);
+      color:var(--text);
+      border:1px solid rgba(148,163,184,.16);
+      box-shadow:0 10px 20px rgba(15,23,42,.08);
+      backdrop-filter:blur(8px);
+      -webkit-backdrop-filter:blur(8px);
+    }
+
+    .media-badge::before,
+    .proof-overlay-tags span::before{
+      content:"";
+      width:8px;
+      height:8px;
+      border-radius:999px;
+      background:linear-gradient(135deg, var(--primary), var(--accent));
+    }
+
+    .media-badge--dark{
+      background:rgba(15,23,42,.88);
+      color:#eff6ff;
+      border-color:rgba(255,255,255,.1);
+    }
+
+    .proof-overlay-tags span{
+      background:rgba(15,23,42,.82);
+      color:#eff6ff;
+      border-color:rgba(255,255,255,.08);
+    }
+    .case-proof-media img{
+      display:block;
+      width:100%;
+      height:auto;
+      aspect-ratio:4 / 3;
+      object-fit:cover;
+      object-position:top;
+      background:#fff;
+    }
+    .case-proof-head{
+      display:flex;
+      justify-content:space-between;
+      gap:16px;
+      align-items:flex-start;
+    }
+    .case-proof-head h3{
+      margin:8px 0 0;
+      font-size:1.45rem;
+      line-height:1.15;
+    }
+    .case-proof-head p{margin:12px 0 0}
+    .case-proof-label,
+    .proof-small-label{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:8px 12px;
+      border-radius:999px;
+      background:rgba(15,23,42,.94);
+      color:#dbeafe;
+      font-size:12px;
+      font-weight:800;
+      letter-spacing:.06em;
+      text-transform:uppercase;
+    }
+    .case-proof-label::before,
+    .proof-small-label::before{
+      content:"";
+      width:8px;
+      height:8px;
+      border-radius:50%;
+      background:linear-gradient(135deg,var(--accent),#fff);
+    }
+    .proof-small-label{
+      background:rgba(37,99,235,.08);
+      color:#1d4ed8;
+      border:1px solid rgba(37,99,235,.12);
+    }
+    .case-kpi-row{
+      display:grid;
+      grid-template-columns:repeat(3, minmax(0,1fr));
+      gap:12px;
+    }
+    .case-kpi{
+      padding:14px;
+      border-radius:18px;
+      background:#fff;
+      border:1px solid rgba(148,163,184,.16);
+    }
+    .case-kpi strong{
+      display:block;
+      margin-bottom:6px;
+      font-size:1.12rem;
+      line-height:1.1;
+    }
+    .case-kpi span{
+      color:var(--muted);
+      font-size:.9rem;
+    }
+    .proof-mini-grid{
+      display:grid;
+      grid-template-columns:1fr;
+      gap:14px;
+      margin-top:6px;
+      align-items:start;
+    }
+    .proof-mini-image{
+      border-radius:24px;
+      overflow:hidden;
+      border:1px solid rgba(148,163,184,.14);
+      background:#fff;
+      padding:12px;
+      box-shadow:var(--shadow-soft);
+    }
+    .proof-mini-image img{
+      display:block;
+      width:100%;
+      height:auto;
+      aspect-ratio:16 / 10;
+      border-radius:18px;
+      object-fit:cover;
+      object-position:top;
+      background:#fff;
+      box-shadow:0 12px 26px rgba(15,23,42,.12);
+    }
+    .proof-mini-copy{
+      padding:20px;
+      border-radius:24px;
+      background:linear-gradient(180deg, rgba(248,250,252,.98), rgba(239,246,255,.96));
+      border:1px solid rgba(37,99,235,.12);
+      color:var(--text);
+      display:grid;
+      align-content:start;
+      box-shadow:0 14px 28px rgba(15,23,42,.08);
+    }
+    .proof-mini-copy p{color:var(--muted);margin-top:10px;line-height:1.7}
+    .proof-mini-copy ul{
+      list-style:none;
+      margin:16px 0 0;
+      padding:0;
+      display:grid;
+      gap:10px;
+      color:var(--text);
+    }
+    .proof-mini-copy li{
+      display:flex;
+      gap:10px;
+      line-height:1.58;
+    }
+    .proof-mini-copy li::before{
+      content:"✓";
+      flex:0 0 auto;
+      width:22px;
+      height:22px;
+      border-radius:999px;
+      display:grid;
+      place-items:center;
+      background:rgba(37,99,235,.12);
+      color:#1d4ed8;
+      font-weight:800;
+      font-size:.82rem;
+      margin-top:2px;
+      box-shadow:inset 0 1px 0 rgba(255,255,255,.8);
+    }
+    .source-links{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      margin-top:2px;
+    }
+    .build-guard{
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(180px, 1fr));
+      gap:12px;
+      margin-top:22px;
+    }
+    .guard-card{
+      padding:16px;
+      border-radius:18px;
+      background:rgba(255,255,255,.74);
+      border:1px solid rgba(148,163,184,.16);
+    }
+    .guard-card strong{display:block;margin-bottom:6px}
+    .guard-card span{color:var(--muted);font-size:.92rem}
+
+  
+    @media (max-width: 820px){
+
+      .results-grid,
+      .build-guard,
+      .proof-mini-grid,
+      .case-kpi-row{
+        grid-template-columns:1fr;
+      }
+
+    }
+  </style>
+<script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {
+        "@type":"Organization",
+        "@id":"https://algorithmoptixit.futureall.xyz/#organization",
+        "name":"Algorthmoptix",
+        "url":"https://algorithmoptixit.futureall.xyz/",
+        "telephone":"+8801732505380"
+      },
+      {
+        "@type":"WebSite",
+        "@id":"https://algorithmoptixit.futureall.xyz/#website",
+        "url":"https://algorithmoptixit.futureall.xyz/",
+        "name":"Algorthmoptix"
+      },
+      {
+        "@type":"Service",
+        "serviceType":"SEO Services",
+        "provider":{"@id":"https://algorithmoptixit.futureall.xyz/#organization"},
+        "areaServed":"Worldwide",
+        "offers":{
+          "@type":"Offer",
+          "availability":"https://schema.org/InStock"
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<header class="site-header">
+<div class="site-header__inner">
+<a aria-label="Algorthmoptix home" class="brand" href="#top">
+<span aria-hidden="true" class="brand-mark">A</span>
+<span>Algorthmoptix</span>
+</a>
+<nav aria-label="Primary navigation" class="header-actions">
+<a class="btn btn-ghost" href="#services">Explore Services</a>
+<a class="btn btn-ghost" href="blog.html">Read Blog</a>
+<a class="btn btn-whatsapp" href="https://wa.me/8801732505380" rel="noopener" target="_blank">WhatsApp Now</a>
+<button class="btn btn-primary" data-open-popup="" type="button">Get Free Audit</button>
+</nav>
+</div>
+</header>
+<div class="hero-wrap" id="top">
+<section aria-label="Hero section" class="hero">
+<div class="glass hero-copy-card">
+<span class="eyebrow">Algorthmoptix • SEO Services</span>
+<h1>Professional SEO design, proof, and growth in one clean presence.</h1>
+<p class="hero-copy">
+          We help businesses grow through on-page SEO, off-page SEO, backlink building, Google Business Profile optimization,
+          and technical SEO improvements that support rankings, trust, and more inbound leads.
+        </p>
+<div class="hero-actions">
+<a class="btn btn-primary" href="#services">Explore Services</a>
+<button class="btn btn-secondary" data-open-popup="" type="button">Get Free Audit</button>
+<a class="btn btn-whatsapp" href="https://wa.me/8801732505380" rel="noopener" target="_blank">Chat on WhatsApp</a>
+</div>
+<div aria-label="Core services" class="service-tags">
+<span>On-Page SEO</span>
+<span>Off-Page SEO</span>
+<span>Backlink Building</span>
+<span>GBP Optimization</span>
+<span>Technical SEO</span>
+</div>
+<div aria-label="Homepage improvement summary" class="hero-metrics">
+<article class="hero-metric">
+<strong>WebP visuals</strong>
+<span>Professional SEO graphics and proof sections that stay lighter for better speed.</span>
+</article>
+<article class="hero-metric">
+<strong>Proof layout</strong>
+<span>Case studies now look cleaner, wider, and easier to trust at first glance.</span>
+</article>
+<article class="hero-metric">
+<strong>Audit popup</strong>
+<span>A simpler conversion popup now highlights services and direct contact without feeling messy.</span>
+</article>
+</div>
+<div aria-label="Highlights" class="hero-points">
+<div>
+<strong>Fast, clean visuals</strong>
+<span>Eye-catching presentation without heavy assets.</span>
+</div>
+<div>
+<strong>Lead-focused structure</strong>
+<span>Cards, proof, and calls to action support conversions.</span>
+</div>
+<div>
+<strong>Score-friendly build</strong>
+<span>Performance, accessibility, best practices, and SEO remain a priority.</span>
+</div>
+</div>
+</div>
+<aside aria-label="SEO dashboard preview" class="glass hero-visual">
+<div class="visual-shell">
+<div class="visual-top">
+<span>SEO Growth Snapshot</span>
+<span aria-hidden="true" class="signal"><span></span><span></span><span></span></span>
+</div>
+<div class="hero-visual-image">
+<img alt="SEO dashboard style hero graphic showing on-page SEO, technical SEO, and quality backlink themes" decoding="async" fetchpriority="high" height="860" src="assets/home-seo-hero.webp" width="1200"/>
+</div>
+</div>
+<div aria-label="Quick business summary" class="hero-summary">
+<article class="summary-card">
+<strong>Proof</strong>
+<span>case studies now have cleaner visual storytelling</span>
+</article>
+<article class="summary-card">
+<strong>Fast</strong>
+<span>optimized WEBP graphics protect performance</span>
+</article>
+<article class="summary-card">
+<strong>Ready</strong>
+<span>for services, blog growth, and lead capture</span>
+</article>
+</div>
+<div aria-label="Trust and action panel" class="hero-trust-panel">
+<div class="hero-trust-head">
+<div>
+<strong>Proof that supports conversion</strong>
+<span>Use the extra hero space to show trust, momentum, and a clear next step.</span>
+</div>
+<span class="hero-trust-badge">Lead ready</span>
+</div>
+<div class="trust-stat-grid" aria-label="Quick performance stats">
+<article class="trust-stat">
+<strong>+128%</strong>
+<span>click growth after cleaner page structure and SEO refinement</span>
+</article>
+<article class="trust-stat">
+<strong>+64%</strong>
+<span>stronger lead capture from better proof layout and CTA flow</span>
+</article>
+<article class="trust-stat">
+<strong>Top 10</strong>
+<span>ranking visibility supported by on-page and local SEO work</span>
+</article>
+</div>
+<div class="trust-proof-grid">
+<article class="trust-quote">
+<strong>Client-style proof</strong>
+<p>Professional delivery, clearer structure, and a more trustworthy SEO presentation that feels easier for visitors to act on.</p>
+<small>Designed to add trust without making the hero feel heavy.</small>
+</article>
+<article class="trust-points">
+<strong>Why this block works</strong>
+<ul>
+<li>fills the blank area with useful proof instead of decorative clutter</li>
+<li>supports Performance, Accessibility, Best Practices, and SEO goals</li>
+<li>keeps the hero section balanced on large screens</li>
+</ul>
+</article>
+</div>
+<div class="trust-cta">
+<div class="trust-cta-copy">
+<strong>Want the same structure for your site?</strong>
+<p>Book a quick review or open a case study to see how proof-led design supports enquiries.</p>
+</div>
+<div class="trust-cta-actions">
+<button class="btn btn-primary" data-open-popup="" type="button">Get Free Audit</button>
+<a class="btn btn-secondary" href="#results">See Results</a>
+</div>
+</div>
+</div>
+</aside>
+</section>
+</div>
+<section aria-label="Site quality highlights" class="proof-strip">
+<article class="proof-item">
+<strong>Performance-minded</strong>
+<p>Custom SEO visuals are exported as compressed WEBP images so the design feels richer without dragging down load time.</p>
+</article>
+<article class="proof-item">
+<strong>Accessibility-friendly</strong>
+<p>Skip link, strong contrast, clear headings, and keyboard focus remain intact.</p>
+</article>
+<article class="proof-item">
+<strong>Best practices</strong>
+<p>Responsive layout, semantic sections, safe external links, and reduced-motion support.</p>
+</article>
+<article class="proof-item">
+<strong>SEO-ready</strong>
+<p>Metadata, structured data, internal linking, and crawl-friendly content layout.</p>
+</article>
+</section>
+<main class="content-grid" id="main-content">
+<aside aria-label="Sidebar" class="sidebar">
+<section class="glass sidebar-card">
+<h2>Quick navigation</h2>
+<nav aria-label="Service sections" class="toc">
+<a href="#on-page-seo">On-Page SEO</a>
+<a href="#off-page-seo">Off-Page SEO</a>
+<a href="#backlink-service">Backlink Building</a>
+<a href="#gbp-optimization">GBP Optimization</a>
+<a href="#technical-seo">Technical SEO</a>
+<a href="#results">Client Results</a></nav>
+</section>
+<section class="glass sidebar-card">
+<h2>Blog support</h2>
+<p>
+          Publish SEO articles under your brand so service pages and informational content work together.
+        </p>
+<div class="quick-links">
+<a href="blog.html">Open blog page</a>
+<a href="article-template.html">Use article template</a>
+<a href="#blog-preview">View featured article cards</a>
+<a href="urban-rugs-uk-seo-case-study.html">See Urban Rugs case study</a></div>
+</section>
+<section class="glass sidebar-card" id="contact">
+<h2>Contact now</h2>
+<p>Need a quick audit or design-focused SEO landing page update? Reach out directly.</p>
+<div class="contact-inline">
+<a href="tel:+8801732505380">Call: 01732505380</a>
+<a href="https://wa.me/8801732505380" rel="noopener" target="_blank">WhatsApp Chat</a>
+</div>
+</section>
+</aside>
+<div class="stack">
+<section aria-label="Service overview" class="glass section-card">
+<span class="section-label">Overview</span>
+<div class="intro-grid">
+<div>
+<h2>A more polished homepage that still stays fast.</h2>
+<p>
+              The design now feels more premium because the page combines a stronger hero, more visual service cards,
+              trust-oriented proof blocks, and clearer content grouping. That makes the site feel more professional
+              without adding heavy media that would hurt loading speed.
+            </p>
+</div>
+<div aria-label="SEO and UX priorities" class="mini-stat-row">
+<div class="mini-stat">
+<strong>Visual clarity</strong>
+<span>Hero illustration, thumbnails, icons, and better spacing.</span>
+</div>
+<div class="mini-stat">
+<strong>User confidence</strong>
+<span>Readable sections, trust language, and direct contact points.</span>
+</div>
+<div class="mini-stat">
+<strong>Search-friendly</strong>
+<span>Structured content with clear internal navigation.</span>
+</div>
+</div>
+</div>
+</section>
+<section aria-label="Service snapshot" class="glass section-card">
+<span class="section-label">Scan faster</span>
+<h2>Icon-led service snapshot for quicker decision making</h2>
+<p>
+          Visitors should not need to read every paragraph first. These lightweight cards make the offer easier to scan
+          in seconds while keeping the page clean and performance-friendly.
+        </p>
+<div aria-label="Service snapshot cards" class="service-snapshot-grid">
+<article class="scan-card">
+<div aria-hidden="true" class="scan-icon">
+<svg fill="none" height="24" viewBox="0 0 24 24" width="24"><path d="M5 6.5h14M5 12h9M5 17.5h7" stroke="currentColor" stroke-linecap="round" stroke-width="1.9"></path><rect height="16" rx="3" stroke="currentColor" stroke-width="1.9" width="18" x="3" y="4"></rect></svg>
+</div>
+<div>
+<strong>On-page clarity</strong>
+<p>Titles, structure, and service messaging become easier to understand for both users and Google.</p>
+</div>
+</article>
+<article class="scan-card">
+<div aria-hidden="true" class="scan-icon">
+<svg fill="none" height="24" viewBox="0 0 24 24" width="24"><path d="M7 12h10M12 7v10" stroke="currentColor" stroke-linecap="round" stroke-width="1.9"></path><circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.9"></circle></svg>
+</div>
+<div>
+<strong>Technical cleanup</strong>
+<p>Speed, crawlability, indexing, and structure stay part of the build instead of becoming an afterthought.</p>
+</div>
+</article>
+<article class="scan-card">
+<div aria-hidden="true" class="scan-icon">
+<svg fill="none" height="24" viewBox="0 0 24 24" width="24"><path d="M7 7h10v10H7z" stroke="currentColor" stroke-width="1.9"></path><path d="M10 10h4v4h-4z" fill="currentColor" opacity=".18"></path><path d="M4 12h2M18 12h2M12 4v2M12 18v2" stroke="currentColor" stroke-linecap="round" stroke-width="1.9"></path></svg>
+</div>
+<div>
+<strong>Local + GBP focus</strong>
+<p>Location signals, profile optimization, and trust cues support better discovery in local searches.</p>
+</div>
+</article>
+<article class="scan-card">
+<div aria-hidden="true" class="scan-icon">
+<svg fill="none" height="24" viewBox="0 0 24 24" width="24"><path d="M8 12.5 11 15.5 16.5 8.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9"></path><path d="M12 3 5 6v5c0 4.2 2.6 8 7 10 4.4-2 7-5.8 7-10V6l-7-3Z" stroke="currentColor" stroke-width="1.9"></path></svg>
+</div>
+<div>
+<strong>Proof-led trust</strong>
+<p>Clean visuals, case-study framing, and direct CTAs help the site feel more credible at first glance.</p>
+</div>
+</article>
+</div>
+</section>
+<section aria-label="SEO services" class="service-grid" id="services">
+<article class="glass service-card" id="on-page-seo">
+<div class="service-head">
+<div aria-hidden="true" class="icon-badge">
+<svg fill="none" height="26" viewbox="0 0 24 24" width="26">
+<rect height="16" rx="3" stroke="currentColor" stroke-width="1.8" width="18" x="3" y="4"></rect>
+<path d="M7 9h10M7 13h7M7 17h5" stroke="currentColor" stroke-linecap="round" stroke-width="1.8"></path>
+</svg>
+</div>
+<div>
+<span class="section-label">Service 01</span>
+<h2>On-Page SEO</h2>
+<span class="service-subtitle">Make every important page easier to rank and easier to understand.</span>
+</div>
+</div>
+<p>
+            Titles, headings, internal links, content hierarchy, meta data, keyword mapping, and page intent are refined
+            so both users and search engines can understand the page faster.
+          </p>
+<ul class="feature-list">
+<li><strong>Better content targeting:</strong> align each page with the right keyword and search intent.</li>
+<li><strong>Cleaner structure:</strong> improve heading flow, readability, and CTA placement.</li>
+<li><strong>Stronger lead pages:</strong> support service visibility without clutter.</li>
+</ul>
+<div class="outcome">
+<strong>Best for:</strong>
+<p>Businesses that want clearer service pages, stronger CTR, and more conversion-ready traffic.</p>
+</div>
+</article>
+<article class="glass service-card" id="off-page-seo">
+<div class="service-head">
+<div aria-hidden="true" class="icon-badge">
+<svg fill="none" height="26" viewbox="0 0 24 24" width="26">
+<circle cx="6" cy="12" r="2.5" stroke="currentColor" stroke-width="1.8"></circle>
+<circle cx="18" cy="7" r="2.5" stroke="currentColor" stroke-width="1.8"></circle>
+<circle cx="18" cy="17" r="2.5" stroke="currentColor" stroke-width="1.8"></circle>
+<path d="M8.3 10.9 15.7 8.1M8.3 13.1l7.4 2.8" stroke="currentColor" stroke-linecap="round" stroke-width="1.8"></path>
+</svg>
+</div>
+<div>
+<span class="section-label">Service 02</span>
+<h2>Off-Page SEO</h2>
+<span class="service-subtitle">Build authority outside your website with safer, longer-term signals.</span>
+</div>
+</div>
+<p>
+            Off-page SEO supports brand trust, mentions, visibility, and authority so your domain feels more credible
+            in competitive search results.
+          </p>
+<ul class="feature-list">
+<li><strong>Authority growth:</strong> improve trust signals across your niche.</li>
+<li><strong>Brand visibility:</strong> support long-term keyword positioning and awareness.</li>
+<li><strong>Balanced execution:</strong> avoid risky or spammy-looking approaches.</li>
+</ul>
+<div class="outcome">
+<strong>Best for:</strong>
+<p>Businesses that already have pages live and want stronger authority around them.</p>
+</div>
+</article>
+<article class="glass service-card" id="backlink-service">
+<div class="service-head">
+<div aria-hidden="true" class="icon-badge">
+<svg fill="none" height="26" viewbox="0 0 24 24" width="26">
+<path d="M9.5 14.5 6.7 17.3a3 3 0 0 1-4.2-4.2l2.8-2.8a3 3 0 0 1 4.2 0" stroke="currentColor" stroke-linecap="round" stroke-width="1.8"></path>
+<path d="m14.5 9.5 2.8-2.8a3 3 0 0 1 4.2 4.2l-2.8 2.8a3 3 0 0 1-4.2 0" stroke="currentColor" stroke-linecap="round" stroke-width="1.8"></path>
+<path d="m8.5 15.5 7-7" stroke="currentColor" stroke-linecap="round" stroke-width="1.8"></path>
+</svg>
+</div>
+<div>
+<span class="section-label">Service 03</span>
+<h2>Backlink Building</h2>
+<span class="service-subtitle">Relevant, quality-focused backlinks that support rankings naturally.</span>
+</div>
+</div>
+<p>
+            Quality backlinks still matter. The focus here is relevance, trust, and safer profile building instead of
+            aggressive tactics that can damage your long-term visibility.
+          </p>
+<ul class="feature-list">
+<li><strong>Relevant targeting:</strong> links are mapped to the right pages and themes.</li>
+<li><strong>Anchor balance:</strong> maintain a more natural backlink profile.</li>
+<li><strong>Authority support:</strong> strengthen competitive pages without noisy spam signals.</li>
+</ul>
+<div class="outcome">
+<strong>Best for:</strong>
+<p>Sites that need trust signals to compete in tougher search results.</p>
+</div>
+</article>
+<article class="glass service-card" id="gbp-optimization">
+<div class="service-head">
+<div aria-hidden="true" class="icon-badge">
+<svg fill="none" height="26" viewbox="0 0 24 24" width="26">
+<path d="M12 21s6-5.7 6-11a6 6 0 1 0-12 0c0 5.3 6 11 6 11Z" stroke="currentColor" stroke-width="1.8"></path>
+<circle cx="12" cy="10" r="2.5" stroke="currentColor" stroke-width="1.8"></circle>
+</svg>
+</div>
+<div>
+<span class="section-label">Service 04</span>
+<h2>GBP Optimization</h2>
+<span class="service-subtitle">Show up better in map results and local-intent searches.</span>
+</div>
+</div>
+<p>
+            A stronger Google Business Profile can improve trust, clicks, direction requests, and inquiries when local
+            customers are searching with high intent.
+          </p>
+<ul class="feature-list">
+<li><strong>Local visibility:</strong> improve profile clarity, categories, and service setup.</li>
+<li><strong>Engagement support:</strong> encourage calls, messages, and website visits.</li>
+<li><strong>Trust presentation:</strong> present your business more professionally in local search.</li>
+</ul>
+<div class="outcome">
+<strong>Best for:</strong>
+<p>Local businesses and service providers that rely on map visibility and nearby searches.</p>
+</div>
+</article>
+<article class="glass service-card" id="technical-seo" style="grid-column:1/-1">
+<div class="service-head">
+<div aria-hidden="true" class="icon-badge">
+<svg fill="none" height="26" viewbox="0 0 24 24" width="26">
+<path d="m9 3-6 6 6 6M15 3l6 6-6 6M14 20l2-14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path>
+</svg>
+</div>
+<div>
+<span class="section-label">Service 05</span>
+<h2>Technical SEO</h2>
+<span class="service-subtitle">Keep the site crawlable, index-friendly, responsive, and polished.</span>
+</div>
+</div>
+<p>
+            This design refresh also supports technical quality: semantic structure, metadata, internal linking, responsive layout,
+            reduced-motion support, safe external links, and lightweight visuals that do not rely on heavy external assets.
+          </p>
+<ul class="feature-list">
+<li><strong>Performance:</strong> SEO graphics are compressed as WEBP images with explicit width and height values to protect speed.</li>
+<li><strong>Accessibility:</strong> skip navigation, readable contrast, keyboard focus, and semantic landmarks stay intact.</li>
+<li><strong>SEO readiness:</strong> canonical URLs, structured data, heading hierarchy, and internal linking are preserved.</li>
+</ul>
+<div class="outcome">
+<strong>Best for:</strong>
+<p>Businesses that want a site to look more premium without sacrificing Lighthouse-friendly fundamentals.</p>
+</div>
+</article>
+</section>
+<section aria-label="Trust priorities" class="glass section-card">
+<span class="section-label">Trust priorities</span>
+<h2>What makes the presentation feel more credible to potential clients</h2>
+<p>
+          Instead of adding random decorative graphics, the homepage now leans on focused trust cues that support
+          enquiries, readability, and a more premium first impression.
+        </p>
+<div aria-label="Trust improvement cards" class="trust-strip-grid">
+<article class="trust-tile">
+<div class="trust-tile-top"><span class="trust-tile-badge">01</span><strong>Clear proof placement</strong></div>
+<p>Visitors can see proof blocks, case-study links, and measurable outcomes without hunting through clutter.</p>
+</article>
+<article class="trust-tile">
+<div class="trust-tile-top"><span class="trust-tile-badge">02</span><strong>Performance-safe visuals</strong></div>
+<p>Icons, gradients, and WebP screenshots create polish without loading the page with unnecessary media.</p>
+</article>
+<article class="trust-tile">
+<div class="trust-tile-top"><span class="trust-tile-badge">03</span><strong>Direct next steps</strong></div>
+<p>WhatsApp, audit, and service CTAs stay visible so the design supports action instead of looking decorative only.</p>
+</article>
+</div>
+</section>
+<section aria-label="Simple process" class="glass section-card">
+<span class="section-label">Simple process</span>
+<h2>How the work turns into better visibility and stronger enquiries</h2>
+<p>
+          A compact process section adds structure to the homepage and explains the path from audit to implementation
+          without needing heavy graphics or sliders.
+        </p>
+<div aria-label="Three step process" class="process-grid">
+<article class="process-card">
+<div class="process-visual">
+<span class="process-step">01</span>
+<div aria-hidden="true" class="process-icon">
+<svg fill="none" height="26" viewBox="0 0 24 24" width="26"><path d="M5 19 9.5 14.5 12.5 17.5 19 11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9"></path><path d="M16 11h3v3" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9"></path><path d="M5 5h14v4H5z" stroke="currentColor" stroke-width="1.9"></path></svg>
+</div>
+</div>
+<div>
+<h3>Audit the current site</h3>
+<p>We identify homepage gaps, technical issues, weak trust signals, and content opportunities before making changes.</p>
+</div>
+</article>
+<article class="process-card">
+<div class="process-visual">
+<span class="process-step">02</span>
+<div aria-hidden="true" class="process-icon">
+<svg fill="none" height="26" viewBox="0 0 24 24" width="26"><rect height="14" rx="3" stroke="currentColor" stroke-width="1.9" width="18" x="3" y="5"></rect><path d="M7 10h10M7 14h6" stroke="currentColor" stroke-linecap="round" stroke-width="1.9"></path></svg>
+</div>
+</div>
+<div>
+<h3>Build clearer pages</h3>
+<p>Service content, proof sections, visuals, and CTAs are organized so the website looks stronger and reads more clearly.</p>
+</div>
+</article>
+<article class="process-card">
+<div class="process-visual">
+<span class="process-step">03</span>
+<div aria-hidden="true" class="process-icon">
+<svg fill="none" height="26" viewBox="0 0 24 24" width="26"><path d="M6 16 10 12l3 3 5-7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9"></path><path d="M5 5v14h14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9"></path></svg>
+</div>
+</div>
+<div>
+<h3>Grow rankings and lead flow</h3>
+<p>With better structure, local signals, and SEO support in place, the site is positioned to attract more qualified enquiries.</p>
+</div>
+</article>
+</div>
+</section>
+
+<section aria-labelledby="results-title" class="glass section-card results-section" id="results">
+<div class="section-top">
+<div>
+<span class="section-label">Real SEO proof</span>
+<h2 id="results-title">Case studies that now feel cleaner, more balanced, and easier to trust</h2>
+<p>Each proof card now keeps the screenshots wide, readable, and properly framed so visitors see real evidence first instead of awkward cropped blocks or empty-looking space.</p>
+</div>
+<div aria-label="Build safeguards" class="results-badges">
+<span>Compressed WebP proof shots</span>
+<span>Lazy-loaded images</span>
+<span>Descriptive alt text</span>
+</div>
+</div>
+<div class="results-grid">
+<article aria-labelledby="urban-proof-title" class="case-proof-card">
+<div class="case-proof-media">
+<div aria-hidden="true" class="media-badges">
+<span class="media-badge media-badge--dark">3-month growth</span>
+<span class="media-badge">UK e-commerce</span>
+</div>
+<img alt="Urban Rugs UK SEO case study overview screenshot showing project summary and SEMrush dashboard proof" decoding="async" height="1122" loading="lazy" src="assets/urban-rugs-cover.webp" width="920"/>
+</div>
+<div class="case-proof-head">
+<div>
+<span class="case-proof-label">E-commerce SEO • UK</span>
+<h3 id="urban-proof-title">Urban Rugs UK: from almost no visibility to meaningful search traction in 3 months</h3>
+<p>A prayer mat e-commerce website in the UK moved from very limited organic visibility into a much stronger ranking position after keyword mapping, on-page improvements, technical fixes, internal linking, and authority building.</p>
+</div>
+</div>
+<div aria-label="Urban Rugs result highlights" class="case-kpi-row">
+<div class="case-kpi"><strong>4 → 796/mo</strong><span>organic traffic after 3 months</span></div>
+<div class="case-kpi"><strong>30 → 286</strong><span>organic keywords tracked</span></div>
+<div class="case-kpi"><strong>25 → 55</strong><span>referring domains growth</span></div>
+</div>
+<div class="proof-mini-grid">
+<div class="proof-mini-image">
+<img alt="Urban Rugs UK SEO case study results screenshot showing traffic and ranking improvements after 3 months" decoding="async" height="620" loading="lazy" src="assets/urban-rugs-results.webp" width="920"/>
+<div aria-hidden="true" class="proof-overlay-tags">
+<span>Traffic up</span>
+<span>Keyword map</span>
+<span>Tech cleanup</span>
+</div>
+</div>
+<div class="proof-mini-copy">
+<span class="proof-small-label">What improved</span>
+<p>The clearest gains came from focused page optimization, crawl cleanup, stronger category content, and better internal linking across commercial pages.</p>
+<ul>
+<li>High-intent keyword targeting for UK market terms</li>
+<li>Improved headings, metadata, and product-page content</li>
+<li>Technical cleanup for crawlability, indexing, and speed</li>
+</ul>
+</div>
+</div>
+<div class="source-links">
+<a href="urban-rugs-uk-seo-case-study.html">View full case study</a>
+<a href="seo-case-study-urban-rugs-uk.pdf">Open PDF proof</a>
+</div>
+</article>
+<article aria-labelledby="akkad-proof-title" class="case-proof-card">
+<div class="case-proof-media">
+<div aria-hidden="true" class="media-badges">
+<span class="media-badge media-badge--dark">Lead-gen SEO</span>
+<span class="media-badge">Local visibility</span>
+</div>
+<img alt="Akkad Consultants SEO case study screenshot showing client overview and before-state SEO dashboard" decoding="async" height="1313" loading="lazy" src="assets/akkad-consultants-cover.webp" width="920"/>
+</div>
+<div class="case-proof-head">
+<div>
+<span class="case-proof-label">Consulting SEO • Local + Lead Gen</span>
+<h3 id="akkad-proof-title">Akkad Consultants: stronger local visibility, first-page terms, and quality lead flow</h3>
+<p>This consulting website needed better visibility, stronger conversions, and more relevant inquiries. The campaign focused on audit-driven fixes, local SEO, mobile responsiveness, structured data, and targeted on-page optimization.</p>
+</div>
+</div>
+<div aria-label="Akkad result highlights" class="case-kpi-row">
+<div class="case-kpi"><strong>+80%</strong><span>organic traffic growth reported</span></div>
+<div class="case-kpi"><strong>3–4 / month</strong><span>quality leads and calls</span></div>
+<div class="case-kpi"><strong>Page 1</strong><span>for key industry keywords</span></div>
+</div>
+<div class="proof-mini-grid">
+<div class="proof-mini-image">
+<img alt="Akkad Consultants SEO case study screenshot showing Google Search Console and SEMrush results after 3 months" decoding="async" height="620" loading="lazy" src="assets/akkad-consultants-results.webp" width="920"/>
+<div aria-hidden="true" class="proof-overlay-tags">
+<span>GBP focus</span>
+<span>Page 1 terms</span>
+<span>Lead flow</span>
+</div>
+</div>
+<div class="proof-mini-copy">
+<span class="proof-small-label">What improved</span>
+<p>Local intent became easier to capture because the campaign combined keyword targeting, profile optimization, and technical cleanup in a way that felt more aligned for both search engines and users.</p>
+<ul>
+<li>Full SEO audit and competitor research before implementation</li>
+<li>Google Business Profile and local keyword targeting</li>
+<li>Mobile, structured-data, and conversion-focused improvements</li>
+</ul>
+</div>
+</div>
+<div class="source-links">
+<a href="akkad-consultants-seo-case-study.html">View full case study</a>
+<a href="seo-case-study-akkad-consultants.pdf">Open PDF proof</a>
+</div>
+</article>
+</div>
+<div aria-label="Quality safeguards" class="build-guard">
+<article class="guard-card"><strong>Performance</strong><span>Only four compressed proof images were added, and every screenshot lazy-loads.</span></article>
+<article class="guard-card"><strong>Accessibility</strong><span>All proof visuals have descriptive alt text and remain inside semantic sections.</span></article>
+<article class="guard-card"><strong>Best practices</strong><span>No heavy sliders or external libraries were introduced just to make the design feel richer.</span></article>
+<article class="guard-card"><strong>SEO</strong><span>Proof content now supports trust, internal linking, and service relevance more clearly.</span></article>
+</div>
+</section>
+<section aria-label="Blog preview" class="glass section-card" id="blog-preview">
+<span class="section-label">SEO content layer</span>
+<h2>Blog preview with stronger visual presentation</h2>
+<p>
+          The blog cards now feel more like real editorial content because each article gets a clean thumbnail area,
+          clearer metadata, and more polished spacing. That makes the page feel more complete and more trustworthy.
+        </p>
+<div class="blog-preview-grid">
+<a class="blog-card" href="article-template.html">
+<div class="thumb">
+<img alt="On-page SEO illustration showing title, snippet, and search optimization elements" decoding="async" height="400" loading="lazy" src="assets/thumb-onpage-seo.webp" width="640"/>
+</div>
+<div class="post-meta">
+<span>April 6, 2026</span>
+<span>7 min read</span>
+</div>
+<h3>How to optimize title tags for better Google clicks</h3>
+<p>Sharper search snippets, stronger relevance signals, and a cleaner click-through strategy.</p>
+<span class="read-more">Read article →</span>
+</a>
+<a class="blog-card" href="article-template.html">
+<div class="thumb">
+<img alt="Technical SEO illustration showing diagnostics, crawl fixes, and indexing improvements" decoding="async" height="400" loading="lazy" src="assets/thumb-technical-seo.webp" width="640"/>
+</div>
+<div class="post-meta">
+<span>April 5, 2026</span>
+<span>8 min read</span>
+</div>
+<h3>Why pages do not index in Google and how to fix them</h3>
+<p>Understand crawl issues, indexing blocks, and the cleanup steps that matter most.</p>
+<span class="read-more">Read article →</span>
+</a>
+<a class="blog-card" href="article-template.html">
+<div class="thumb">
+<img alt="Backlinks illustration showing trusted links, authority, and off-page SEO signals" decoding="async" height="400" loading="lazy" src="assets/thumb-backlinks-seo.webp" width="640"/>
+</div>
+<div class="post-meta">
+<span>April 4, 2026</span>
+<span>6 min read</span>
+</div>
+<h3>How quality backlinks support growth without looking spammy</h3>
+<p>Practical backlink thinking that prioritizes relevance, authority, and brand trust.</p>
+<span class="read-more">Read article →</span>
+</a>
+</div>
+</section>
+<section aria-label="Call to action" class="glass cta-card">
+<span class="section-label" style="color:#93c5fd">Ready to grow</span>
+<h2>Need a homepage that looks better and still stays SEO-safe?</h2>
+<p>
+          Algorthmoptix can help with SEO positioning, service-page structure, blog content support, and local growth improvements
+          without turning the site into a slow, heavy design.
+        </p>
+<div class="cta-actions">
+<a class="btn btn-whatsapp" href="https://wa.me/8801732505380" rel="noopener" target="_blank">WhatsApp Now</a>
+<a class="btn btn-secondary" href="tel:+8801732505380">Call 01732505380</a>
+<button class="btn btn-primary" data-open-popup="" type="button">Get Free Audit</button>
+</div>
+</section>
+</div>
+</main>
+<div class="footer-wrap">
+<footer class="footer-inner">
+<div class="glass footer-card">
+<div>
+<h3 style="margin:0 0 8px;">Algorthmoptix</h3>
+<p>Professional SEO services and branded content structure for businesses that want to rank and convert better.</p>
+</div>
+<div class="footer-links">
+<a href="#top">Home</a><a href="#results">Results</a>
+<a href="blog.html">Blog</a>
+<a href="article-template.html">Article template</a>
+<a href="https://wa.me/8801732505380" rel="noopener" target="_blank">WhatsApp</a>
+</div>
+</div>
+</footer>
+</div>
+<button aria-label="Open free SEO audit popup" class="btn btn-primary popup-fab" data-open-popup="" type="button">Free Audit</button>
+<div aria-hidden="true" class="popup" id="audit-popup">
+<div aria-describedby="popup-desc" aria-labelledby="popup-title" aria-modal="true" class="popup-card" role="dialog" tabindex="-1">
+<div class="popup-content">
+<button aria-label="Close dialog" class="popup-close" data-close-popup="" type="button">×</button>
+<div class="popup-header">
+<h2 id="popup-title">Get your free SEO audit</h2>
+<p id="popup-desc">Contact Algorthmoptix for a free audit on your website, on-page SEO, off-page SEO, backlinks, GBP, and technical improvements.</p>
+</div>
+<div aria-label="Direct contact options" class="popup-contact-box contact-box">
+<div class="popup-contact-row">
+<span aria-hidden="true" class="popup-contact-icon">
+<svg fill="none" height="18" viewBox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg">
+<path d="M5 7.5C5 6.67157 5.67157 6 6.5 6H17.5C18.3284 6 19 6.67157 19 7.5V13.5C19 14.3284 18.3284 15 17.5 15H10L6 18V15H6.5C5.67157 15 5 14.3284 5 13.5V7.5Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/>
+<path d="M8.5 10.5H11.5" stroke="currentColor" stroke-linecap="round" stroke-width="1.7"/>
+<path d="M13.5 10.5H15.5" stroke="currentColor" stroke-linecap="round" stroke-width="1.7"/>
+</svg>
+</span>
+<a class="popup-contact-number" href="tel:+8801732505380">01732505380</a>
+</div>
+<p class="popup-note">Click to open WhatsApp, use call now, or copy the number below.</p>
+</div>
+<div class="popup-actions">
+<a class="btn btn-whatsapp" href="https://wa.me/8801732505380" rel="noopener" target="_blank">WhatsApp</a>
+<a class="btn btn-secondary" href="tel:+8801732505380">Call Now</a>
+<button class="btn btn-primary" id="copy-number-button" type="button">Copy Number</button>
+</div>
+<div class="popup-footer">
+<button class="btn btn-secondary" data-close-popup="" type="button">Close</button>
+<p aria-live="polite" class="copy-feedback" id="copy-feedback"></p>
+</div>
+</div>
+</div>
+</div>
+<script>
+    (() => {
+      const popup = document.getElementById('audit-popup');
+      if (!popup) return;
+
+      const popupCard = popup.querySelector('.popup-card');
+      const openButtons = document.querySelectorAll('[data-open-popup]');
+      const closeButtons = document.querySelectorAll('[data-close-popup]');
+      const copyButton = document.getElementById('copy-number-button');
+      const copyFeedback = document.getElementById('copy-feedback');
+      const phoneNumber = '+8801732505380';
+      const focusableSelectors = 'a[href], area[href], button:not([disabled]), textarea:not([disabled]), input:not([disabled]), select:not([disabled]), [tabindex]:not([tabindex="-1"])';
+      let lastFocusedElement = null;
+      let autoOpenTimer = null;
+
+      const getFocusable = () => Array.from(popupCard.querySelectorAll(focusableSelectors));
+
+      const openPopup = () => {
+        if (popup.classList.contains('is-open')) return;
+        lastFocusedElement = document.activeElement;
+        popup.classList.add('is-open');
+        popup.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+        const focusable = getFocusable();
+        (focusable[0] || popupCard).focus();
+      };
+
+      const closePopup = () => {
+        if (!popup.classList.contains('is-open')) return;
+        popup.classList.remove('is-open');
+        popup.setAttribute('aria-hidden', 'true');
+        document.body.style.overflow = '';
+        if (lastFocusedElement && typeof lastFocusedElement.focus === 'function') {
+          lastFocusedElement.focus();
+        }
+      };
+
+      openButtons.forEach((button) => {
+        button.addEventListener('click', () => {
+          if (autoOpenTimer) clearTimeout(autoOpenTimer);
+          openPopup();
+        });
+      });
+
+      closeButtons.forEach((button) => {
+        button.addEventListener('click', closePopup);
+      });
+
+      popup.addEventListener('click', (event) => {
+        if (event.target === popup) closePopup();
+      });
+
+      document.addEventListener('keydown', (event) => {
+        if (!popup.classList.contains('is-open')) return;
+        if (event.key === 'Escape') {
+          closePopup();
+          return;
+        }
+        if (event.key !== 'Tab') return;
+        const focusable = getFocusable();
+        if (!focusable.length) return;
+        const first = focusable[0];
+        const last = focusable[focusable.length - 1];
+        if (event.shiftKey && document.activeElement === first) {
+          event.preventDefault();
+          last.focus();
+        } else if (!event.shiftKey && document.activeElement === last) {
+          event.preventDefault();
+          first.focus();
+        }
+      });
+
+      if (copyButton) {
+        copyButton.addEventListener('click', async () => {
+          try {
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+              await navigator.clipboard.writeText(phoneNumber);
+            } else {
+              const helper = document.createElement('input');
+              helper.value = phoneNumber;
+              document.body.appendChild(helper);
+              helper.select();
+              document.execCommand('copy');
+              helper.remove();
+            }
+            if (copyFeedback) copyFeedback.textContent = 'Number copied successfully.';
+          } catch (error) {
+            if (copyFeedback) copyFeedback.textContent = 'Copy failed. Please copy manually: ' + phoneNumber;
+          }
+        });
+      }
+
+      window.addEventListener('load', () => {
+        autoOpenTimer = window.setTimeout(() => {
+          openPopup();
+        }, 5000);
+      }, { once: true });
+    })();
+  </script>
+</body>
+</html>
